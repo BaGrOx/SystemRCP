@@ -5,18 +5,13 @@ class Program
 {
     static void Main(string[] args)
     {
-
-
         try
         {
-
             string currentDirectory = Directory.GetCurrentDirectory();
 
             var rcp1Files = Directory.GetFiles(currentDirectory, "rcp1*.csv");
 
             var rcp2Files = Directory.GetFiles(currentDirectory, "rcp2*.csv");
-
-
 
             var employees1 = new List<WorkDay>();
             foreach (var file in rcp1Files)
@@ -48,7 +43,6 @@ class Program
 
             foreach (var employee in employees)
             {
-                employees.OrderBy(x => x.EmployeeCode).ToList();
                 Console.WriteLine($"Pracownik {employee.EmployeeCode}:");
                 if (!(employee.EndTime < employee.StartTime))
                     Console.WriteLine($"{employee.Date:yyyy-MM-dd}: {employee.StartTime:hh\\:mm} - {employee.EndTime:hh\\:mm} ({employee.EndTime - employee.StartTime:hh\\:mm})\n");
@@ -59,7 +53,6 @@ class Program
                 }
 
             }
-
         }
         catch (UnauthorizedAccessException ex)
         {
@@ -70,5 +63,4 @@ class Program
             Console.WriteLine("Katalog nie został odnaleziony." + ex.Message);
         }
     }
-
 }

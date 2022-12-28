@@ -1,12 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace SystemRCP_CSV
+﻿namespace SystemRCP_CSV
 {
-    public  class ReadFile
+    public class ReadFile
     {
         public static List<WorkDay> ReadFile1(string fileName)
         {

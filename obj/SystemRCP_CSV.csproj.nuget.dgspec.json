@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Admin\\OneDrive\\Pulpit\\ASP.NET\\SystemRCP_CSV\\SystemRCP_CSV.csproj": {}
+    "C:\\Users\\jbagr\\source\\repos\\SystemRCP\\SystemRCP_CSV.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Admin\\OneDrive\\Pulpit\\ASP.NET\\SystemRCP_CSV\\SystemRCP_CSV.csproj": {
+    "C:\\Users\\jbagr\\source\\repos\\SystemRCP\\SystemRCP_CSV.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Admin\\OneDrive\\Pulpit\\ASP.NET\\SystemRCP_CSV\\SystemRCP_CSV.csproj",
+        "projectUniqueName": "C:\\Users\\jbagr\\source\\repos\\SystemRCP\\SystemRCP_CSV.csproj",
         "projectName": "SystemRCP_CSV",
-        "projectPath": "C:\\Users\\Admin\\OneDrive\\Pulpit\\ASP.NET\\SystemRCP_CSV\\SystemRCP_CSV.csproj",
-        "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Admin\\OneDrive\\Pulpit\\ASP.NET\\SystemRCP_CSV\\obj\\",
+        "projectPath": "C:\\Users\\jbagr\\source\\repos\\SystemRCP\\SystemRCP_CSV.csproj",
+        "packagesPath": "C:\\Users\\jbagr\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\jbagr\\source\\repos\\SystemRCP\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\jbagr\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -45,8 +45,7 @@
             "net47",
             "net471",
             "net472",
-            "net48",
-            "net481"
+            "net48"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -55,7 +54,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     }
